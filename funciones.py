@@ -123,8 +123,8 @@ def gano(lista):
 			return "JUGADOR X GANO"
 		elif lista[0][2] == "O":
 			return "JUGADOR O GANO"	
-		else:
-			gano= False	
+	else:
+		gano = False	
 
 def repetir(seguir):
 	print("Jugador X ")
