@@ -5,14 +5,14 @@ while menu != 2:
 
 	if menu == 1:
 		
-		lista= [["a","b","c"],
-			["d","e","f"],
-			["g","h","i"]]
+		lista= [["A","B","C"],
+			["D","E","F"],
+			["G","H","I"]]
 		print(funciones.mostrar(lista))
 		
 		print("Jugador X ")
 		elec= input("Ingrese la letra de la ubicacion deseada: ")
-		print(funciones.cjug1(elec,lista))
+		print(funciones.cjug1(elec.upper(),lista))
 		print(funciones.gano(lista))
 
 		cont = 4
@@ -21,7 +21,7 @@ while menu != 2:
 			if funciones.gano(lista) != "JUGADOR X GANO" and funciones.gano(lista) != "JUGADOR O GANO" :
 				print("Jugador O ")
 				elec= input("Ingrese la letra de la ubicacion deseada: ")
-				print(funciones.cjug2(elec,lista))
+				print(funciones.cjug2(elec.upper(),lista))
 				print(funciones.gano(lista))
 			
 				if funciones.gano(lista) != "JUGADOR O GANO" :
