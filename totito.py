@@ -37,12 +37,15 @@ while menu != 2:
 		print("Si desea salir presione 2.")
 		menu= int(input("Presione el numero de su eleccion: "))		
 
-
+	elif menu == 2:
+		print("Gracias por jugar!")		
 
 	else:
-		print("Opcion invalida.")	
+		print("Opcion invalida.")
+		print("Si desea jugar de nuevo presione 1.")
+		print("Si desea salir presione 2.")
+		menu= int(input("Presione el numero de su eleccion: "))	
 
-	print("Gracias por jugar!")	
 	
 
 		
