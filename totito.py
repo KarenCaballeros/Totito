@@ -13,22 +13,22 @@ while menu != 2:
 		print("Jugador X ")
 		elec= input("Ingrese la letra de la ubicacion deseada: ")
 		print(funciones.cjug1(elec.upper(),lista))
-		print(funciones.gano(lista))
+		print(funciones.ganador(lista))
 
 		cont = 4
 		while cont > 0:
 
-			if funciones.gano(lista) != "JUGADOR X GANO" and funciones.gano(lista) != "JUGADOR O GANO" :
+			if funciones.ganador(lista) != "JUGADOR X GANO" and funciones.ganador(lista) != "JUGADOR O GANO" :
 				print("Jugador O ")
 				elec= input("Ingrese la letra de la ubicacion deseada: ")
 				print(funciones.cjug2(elec.upper(),lista))
-				print(funciones.gano(lista))
+				print(funciones.ganador(lista))
 			
-				if funciones.gano(lista) != "JUGADOR O GANO" :
+				if funciones.ganador(lista) != "JUGADOR O GANO" :
 					print("Jugador X ")
 					elec= input("Ingrese la letra de la ubicacion deseada: ")
-					print(funciones.cjug1(elec,lista))
-					print(funciones.gano(lista))
+					print(funciones.cjug1(elec.upper(),lista))
+					print(funciones.ganador(lista))
 				
 			cont= cont - 1 		
 	
