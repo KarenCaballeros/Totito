@@ -8,7 +8,6 @@ def mostrar(lista):
 
 
 def cjug1(elec,lista):
-		print(lista)
 		elec_val = ord(elec) - 65
 		lista[elec_val // 3][elec_val % 3] = "X"
 		return mostrar(lista)
