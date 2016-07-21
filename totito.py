@@ -32,7 +32,6 @@ while menu != 2:
 				
 			cont= cont - 1 		
 	
-
 		print("Si desea jugar de nuevo presione 1.")
 		print("Si desea salir presione 2.")
 		menu= int(input("Presione el numero de su eleccion: "))		
@@ -45,7 +44,3 @@ while menu != 2:
 		print("Si desea jugar de nuevo presione 1.")
 		print("Si desea salir presione 2.")
 		menu= int(input("Presione el numero de su eleccion: "))	
-
-	
-
-		
