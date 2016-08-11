@@ -1,10 +1,10 @@
 from ejemploHerencia import FiguraGeometrica
 
-class cuadrado(FiguraGeometrica):
+class Cuadrado(FiguraGeometrica):
 	def __init__(self, lado):
 		super(). __init__(lado , lado)
 	def imprimir(self):
 		resultado= ""
 		for i in range(self.altura):
-			resultado= "*" * (self.base) + "\n" 
+			resultado += "* " * (self.base) + "\n" 
 		return resultado
